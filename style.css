@@ -1,4 +1,13 @@
-// script.js
-function revealSection(id) {
-  document.getElementById(id).classList.toggle('hidden');
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+.hidden {
+  display: none;
 }
