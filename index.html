@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kaitlyn's Retirement Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Kaitlyn is Ancient 🦖</h1>
+
+  <button onclick="revealSection('joints')">Check Her Joint Condition</button>
+  <button onclick="revealSection('wrinkles')">View Wrinkle Map</button>
+  <button onclick="revealSection('retirement')">Retirement Home Options</button>
+
+  <div id="joints" class="hidden">
+    <p>Her knees sound like Rice Krispies. Snap, crackle, pop.</p>
+  </div>
+
+  <div id="wrinkles" class="hidden">
+    <p>NASA uses her forehead lines to study fault lines.</p>
+  </div>
+
+  <div id="retirement" class="hidden">
+    <p>We've scheduled a tour at Sunny Pines. She cried (but it was just dry eye).</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
